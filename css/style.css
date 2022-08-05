@@ -237,3 +237,51 @@ footer hr {
     color: #514949;
     padding-bottom: 97px;
 }
+
+/* responsive ViewPort */
+@media (max-width: 768px) {
+
+    .top-container {
+        height: auto;
+    }
+
+    img.logo-img {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .top h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn-div {
+        margin-bottom: 50px;
+    }
+
+    button.action-btn {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+
+    h3.heading {
+        margin-top: 60px !important;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+}
