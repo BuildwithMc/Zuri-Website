@@ -18,14 +18,15 @@ a:hover {
     color: #eb5850;
 }
 
-.center-image {
+/* logo positioning */
+.ZurI-logo-image {
     margin: auto;
     display: flex;
     padding-top: 69px;
     margin-bottom: 69px;
 }
 
-.center-image img {
+.ZurI-logo-image img {
     margin: auto;
 }
 
@@ -64,3 +65,30 @@ a:hover {
     margin-top: 92px;
 }
 
+/* hero top section button */
+
+.action-btn {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+}
+
+.btn-red {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.btn-red:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
