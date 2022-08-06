@@ -44,7 +44,7 @@ a:hover {
 
 .top-container {
   height: 800px;
-  background-image: url("../assets/images/hero-bg.svg");
+  background-image: url("../images/hero-bg.svg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
